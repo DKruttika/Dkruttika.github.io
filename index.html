@@ -1,75 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kruttika Dabke - Professional Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header h1 {
-            text-align: center;
-            margin: 0;
-            font-size: 24px;
-            text-transform: uppercase;
-        }
-        .content {
-            padding: 20px;
-            background: #fff;
-            margin-top: 20px;
-        }
-        .content h2 {
-            margin-top: 0;
-        }
-        a {
-            color: #333;
-            text-decoration: none;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-            background: #333;
-            color: #fff;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="content">
-	    <img src="profile_image.jpg" alt="Profile Picture" style="width:200px;height:200px;">
-            <h2>Name:</h2>
-            <p>Kruttika Dabke, PhD</p>
-
-            <h2>Education:</h2>
-            <p>PhD in Biomedical sciences from Cedars-Sinai Medical Center</p>
-
-            <h2>Current Position:</h2>
-            <p>Research Scientist I at the Ellison Medical Institute</p>
-
-            <h2>LinkedIn:</h2>
-            <p><a href="https://www.linkedin.com/in/kruttika-dabke2023/" target="_blank" style="color: blue;">Visit my LinkedIn Profile</a></p>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      About · Kruttika Dabke, PhD
+    </title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="identity" href="index.html">
+        Kruttika Dabke
+        <span>
+          PhD
+        </span>
+      </a>
+      <nav aria-label="Portfolio">
+        <a href="index.html" class="active" aria-current="page">About</a>
+        <a href="research.html">Projects</a>
+        <a href="software.html">Software</a>
+      </nav>
+    </header>
+    <main class="about-home">
+      <section class="name-hero">
+        <img class="about-logo" src="assets/personal-logo.png" alt="Kruttika Dabke’s logo: painted blue waves connecting mass spectrum, DNA, and mRNA symbols.">
+        <div class="name-and-links">
+          <h1>Kruttika Dabke, PhD</h1>
+          <div class="profile-links" aria-label="Profile links">
+            <a href="https://www.linkedin.com/in/kruttika-dabke/">LinkedIn</a>
+            <a href="https://github.com/DKruttika">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=vcbmWYUAAAAJ&hl=en">Google scholar</a>
+          </div>
         </div>
-    </div>
+      </section>
+      <section class="bio-section">
+        <h2>
+          About
+        </h2>
+        <div class="bio-copy">
+          <p>
+            I’m Kruttika Dabke, a research scientist with a PhD in Biomedical Sciences from Cedars-Sinai Medical Center and a 
+            background in bioinformatics and oncology. I develop reproducible workflows and analyze molecular datasets 
+            to investigate disease biology.
+          </p>
+          <p>
+            My doctoral research focused on chemoresistance in high-grade serous ovarian cancer (HGSOC), combining proteomics 
+            with complementary omics and imaging analyses. I used statistical analysis including clustering, pathway enrichment, 
+            co-expression network analysis, and differential expression to characterize molecular patterns associated with 
+            chemoresistance and homologous recombination defeciency in HGSOC.
+          </p>
+          <p>
+            At the Ellison Medical Institute, I develop reproducible analysis workflows and scientific software for metabolomics 
+            studies, from data preprocessing and quality control to annotation and pathway analysis. 
+            I analyze experimental and clinical datasets to investigate metabolic responses to exposures, exercise, and 
+            drug treatment, using statistical methods to assess biological patterns and data reliability. 
+            I partner with experimental scientists on study design and interpretation, benchmark analytical tools, and 
+            communicate findings through documented reports, visualizations, and training.
+          </p>
+        </div>
+      </section>
+      <section class="interests">
+        <h2>
+          Research interests
+        </h2>
+        <ul>
+          <li>
+            Mass spectrometry
+          </li>
+          <li>
+            Cancer biology
+          </li>
+          <li>
+            Next-generation sequencing
+          </li>
+          <li>
+            Reproducible bioinformatics pipelines
+          </li>
+          <li>
+            Data visualization
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer>
-        <p>© 2024 Kruttika Dabke.</p>
+      <span>
+        Kruttika Dabke, PhD
+      </span>
+      <span>
+        Local preview
+      </span>
     </footer>
-</body>
+  </body>
 </html>
